@@ -1,0 +1,18 @@
+@font-face{
+    font-family: "";
+    src:url(./Montserrat/Montserrat-Thin.ttf) format(truetype);
+    font-display: swap;
+}
+
+
+/* 
+@keyframes pulse {
+    0% {
+        box-shadow: 0 0 0 0 #1d263a
+    }
+}
+@keyframes pulse-secondary {
+    0% {
+        box-shadow: 0 0 0 0 #20bfa9
+    }
+} */
