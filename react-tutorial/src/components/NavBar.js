@@ -1,7 +1,7 @@
-import React, { useState } from "react";
+import React from "react";
 
 const NavBar = () => {
-  const [imageSrc, setImageSrc]=useState('./react-tutorial/public/Vector.svg')
+  const [imageSrc, setImageSrc]=useState('../../react-tutorial/public/Vector.svg')
         return(
             <nav className="navbar navbar-expand-lg header_nav">
               <div className="container mt-3">
