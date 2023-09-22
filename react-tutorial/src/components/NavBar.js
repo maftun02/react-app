@@ -2,24 +2,32 @@ import React from "react";
 
 const NavBar = () => {
         return(
-            <nav className="navbar">
-               <div className="container">
-               <a className="navbar-brand" style={{fontFamily: "Montserrat", fontSize: "24px",fontWeight: "700",lineHeight: "32px",letterSpacing: "0.10000000149011612px",textAlign: "left"}} href="#">MedicalFunc</a>
-                 <ul className="navbar-nav">
-                   <li className="nav-item">
-                    <a className="nav-link">Home</a>
-                    <a className="nav-link">Product</a>
-                    <a className="nav-link">Pricing</a>
-                    <a className="nav-link">Contact</a>
-                   </li>
-                 </ul>
-
-                 <div>
-                    <a href="#">Login</a>
-                    <button>Join Us <img src="./"></img></button>
-                 </div>
-               </div>
+            <nav className="navbar navbar-expand-lg header_nav">
+              <div className="container mt-3">
+                <a className="navbar-brand logo">MedicalFunc</a>
+                <div className="collapse navbar-collapse">
+                  <ul className="navbar-nav d-flex align-items-center me-auto">
+                    <li className="navbar-item ">
+                      <a className="navbar-link header_link active">Home</a>
+                    </li>
+                    <li className="navbar-item">
+                      <a className="navbar-link header_link">Product</a>
+                    </li>
+                    <li className="navbar-item">
+                      <a className="navbar-link header_link">Pricing</a>
+                    </li>
+                    <li className="navbar-item">
+                      <a className="navbar-link header_link">Contact</a>
+                    </li>
+                  </ul>
+                  <div className="header_end-link d-flex align-items-center">
+                    <a className="login-link" href="#">Login</a>
+                    <a className="join-link">JOIN US <img src="react-tutorial/public/Vector.svg"></img></a>
+                  </div>
+                </div>
+              </div>
             </nav>
+
         )
     }
 
