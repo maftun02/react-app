@@ -1,6 +1,8 @@
-import React from "react";
+import img from "../../public/Vector.svg"
+import React, { useState } from "react";
 
 const NavBar = () => {
+  const [imageSrc, setImageSrc]=useState('../../public/Vector.src')
         return(
             <nav className="navbar navbar-expand-lg header_nav">
               <div className="container mt-3">
@@ -22,7 +24,7 @@ const NavBar = () => {
                   </ul>
                   <div className="header_end-link d-flex align-items-center">
                     <a className="login-link" href="#">Login</a>
-                    <a className="join-link">JOIN US <img src="react-tutorial/public/Vector.svg"></img></a>
+                    <a className="join-link">JOIN US <img src="{imageSrc}" alt="vector"></img></a>
                   </div>
                 </div>
               </div>
