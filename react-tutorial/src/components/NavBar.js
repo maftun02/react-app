@@ -1,5 +1,6 @@
 import React from "react";
-import img from './images/Vector.svg';
+// import img from '../images/Vector.svg';
+// import img2 from '../images/none.png'
 const NavBar = () => {
         return(
           <header className="container-fluid">
@@ -41,7 +42,7 @@ const NavBar = () => {
                         </div>
                 </div>
                 <div className="col-md-7">
-                        <img src="react-tutorial/public/none.png"></img>
+                        {/* <img src="react-tutorial/public/none.png"></img> */}
                 </div>
             </div>
         </div>
