@@ -1,7 +1,7 @@
 import React, { useState} from 'react';
 
 const NavBar = () => {
-  const [ imageSrc, setImageSrc]=useState('/public/images/none.png')
+  const [ imageSrc, setImageSrc]=useState('/images/none.png')
         return(
           <header className="container-fluid">
             <nav className="navbar navbar-expand-lg header_nav">
@@ -23,13 +23,13 @@ const NavBar = () => {
                     </li>
                   </ul>
                   <div className="header_end-link d-flex align-items-center">
-                    <a className="login-link" href="#">Login</a>
-                    <a className="join-link">JOIN US </a>
+                    <a className="login-link">Login</a>
+                    <a className="join-link">JOIN US <img src={"/images/Vector.svg"} alt=''></img></a>
                   </div>
                 </div>
               </div>
             </nav>
-            <div className="container" style="margin-top: 100px;" >
+            <div className="container" style={{marginTop: '100px'}} >
             <div className="row d-flex justify-content-center">
                 <div className="col-md-5">
                     <h5>Welcome</h5>
