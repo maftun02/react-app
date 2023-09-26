@@ -1,7 +1,7 @@
-import React from "react";
-// import img from '../images/Vector.svg';
-// import img2 from '../images/none.png'
+import React, { useState} from 'react';
+
 const NavBar = () => {
+  const [ imageSrc, setImageSrc]=useState('/public/images/none.png')
         return(
           <header className="container-fluid">
             <nav className="navbar navbar-expand-lg header_nav">
@@ -24,7 +24,7 @@ const NavBar = () => {
                   </ul>
                   <div className="header_end-link d-flex align-items-center">
                     <a className="login-link" href="#">Login</a>
-                    <a className="join-link">JOIN US <img src={img} alt="vector"></img></a>
+                    <a className="join-link">JOIN US </a>
                   </div>
                 </div>
               </div>
@@ -42,7 +42,7 @@ const NavBar = () => {
                         </div>
                 </div>
                 <div className="col-md-7">
-                        {/* <img src="react-tutorial/public/none.png"></img> */}
+                        <img src={imageSrc} alt=""></img>
                 </div>
             </div>
         </div>
