@@ -25,13 +25,16 @@ a{
     text-decoration: none;
     font-family: "Montserrat-Medium", sans-serif;
 }
+* {
+    font-family: 'Montserrat-Mdeium', sans-serif;
+}
 .active{
     color: #23a6f0;
 }
 header{
-    background-image: url(react-tutorial/public/hero-9-bg-shape-cover.png); 
+    background-image: url("hero-9-bg-shape-cover.png"); 
     width: 100; 
-    height: 700px;
+    height: 764px;
 }
 .header_nav{
     padding: 30px 0;
@@ -60,7 +63,7 @@ header{
 }
 .header_end-link a{
     text-decoration: none;
-    
+    margin-right: 25px;
 }
 .login-link{
     font-size: 14px;
@@ -154,4 +157,81 @@ header{
     color: #fff;
     background: #252B42;
     border-color: #252B42;
+}
+
+.all_section{
+    padding: 160px 0;
+}
+.col-xl-5{
+    flex: 0 0 auto;
+    width: 41.6%;
+}
+.activity-text-box{
+    row-gap: 10px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    text-align: left;
+    margin-bottom: 60px;
+}
+.all-title{
+    color: #23a6f0;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: capitalize;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+.activity-title{
+    color: #252B42;
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+.activity-text{
+    font-size: 16px;
+    font-weight: 600;
+    color: #737373;
+    margin-bottom: 0 ;
+}
+.activity-content-row{
+    row-gap: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.activity-content{
+    row-gap: 20px;
+    background: #fff;
+    box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.07);
+    padding: 35px 40px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+}
+.activity-contant-icon{
+    max-width: 72px;
+    max-height: 72px;
+    height: 72px;
+}
+.red-line{
+    width: 50px;
+    height: 2px;
+    background: #E74040;
+    margin: 0;
+}
+.activity-content-title{
+    color: #252B42;
+    font-weight: 700;
+    font-size: 16px;
+    margin: 0;
+    text-transform: capitalize;
+}
+.activity-content-desc{
+    font-size: 14px;
+    color: #737373;
+    font-weight: 700;
+    margin: 0;
 }

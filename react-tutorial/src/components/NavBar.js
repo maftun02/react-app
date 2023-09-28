@@ -29,7 +29,7 @@ const NavBar = () => {
                 </div>
               </div>
             </nav>
-            <div className="container" style={{marginTop: '100px'}} >
+            <div className="container" style={{marginTop: '70px'}} >
             <div className="row d-flex justify-content-center">
                 <div className="col-md-5">
                     <h5>Welcome</h5>
