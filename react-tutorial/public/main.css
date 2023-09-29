@@ -235,3 +235,55 @@ header{
     font-weight: 700;
     margin: 0;
 }
+
+.medicine-section{
+    background: #FFDCD1;
+    padding: 160px 0;
+}
+.medicine-text-box{
+    row-gap: 35px;
+}
+.medicine-title{
+    color: #252B42;
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: capitalize;
+    position: relative;
+}
+.medicine-title::before {
+    content: '';
+    position: absolute;
+    top: -35px;
+    left: 0;    
+    width: 95px;
+    height: 7px;
+    background: #E74040;
+    display: block;
+}
+.medicine-text{
+    font-size: 14px;
+    font-weight: 600;
+    color: #737373;
+    margin-bottom: 0;
+}
+.medicine-link{
+    color: #23a6f0;
+    font-size: 14px;
+    font-weight: 700;
+    transition: .4s;
+    display: flex;
+    column-gap: 10px;
+    align-items: center;
+}
+.medicine-link:hover {
+    color: #252B42;
+}
+.far{
+    font-weight: 400;
+}
+.far::before{
+    width: 94px;
+    height: 7px;
+    color: #E74040;
+}
+

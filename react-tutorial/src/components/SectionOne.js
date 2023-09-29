@@ -4,7 +4,6 @@ import React, { useState} from 'react';
 const SectionOne = () => {
     const [ imageSrc1, setImageSrc1]=useState('/images/emergency-case.svg')
     return(
-        <main>
         <section className="all_section">
             <div className="container">
                 <div className="row">
@@ -49,7 +48,6 @@ const SectionOne = () => {
                 </div>
             </div>
         </section>
-    </main>
     )
 }
 
