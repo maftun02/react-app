@@ -1,6 +1,6 @@
 import React, { useState} from 'react';
 
-const SectionTwo = () => {
+const SectionTwoo = () => {
     const [ imageSrc2, setImageSrc2]=useState('/images/thumb-concept-7.png')
     return(
 <section className="medicine-section">
@@ -29,4 +29,4 @@ const SectionTwo = () => {
 }
 
 
-export default SectionTwo;
+export default SectionTwoo;

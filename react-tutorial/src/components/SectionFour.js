@@ -76,7 +76,7 @@ const SectionFour = () => {
                                   <a href="#" className="try-link">Try for Pro</a>
                                   <ul className="pricing-content-features-box d-flex flex-column align-items-start">
                                     <li className="pricing-content-future">
-                                        <img src={"/public/images/green-tick.svg"} alt="" className="tick-icon"></img>
+                                        <img src={"/images/green-tick.svg"} alt="" className="tick-icon"></img>
                                         Unlimited product updates
                                     </li>
                                     <li className="pricing-content-future">
