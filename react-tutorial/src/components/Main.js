@@ -2,31 +2,34 @@ import React, {useState} from 'react';
 
 
 class Main extends React. Component{
+    
     constructor(props) {
         super(props);
 
         this.state ={
             number: 0,
+            imageSrc1: "/images/vector.png"
         }
     }
     render(){
         const incrementNumber = () =>{
             this.setState({number: this.state.number + 1})
         }
+        
         const decrementNumber = () =>{
             if (this.state.number > 0){
                 this.setState({number: this.state.number - 1})
             }
             
         }
-    const [ imageSrc1, setImageSrc1]=useState('/images/vector.png')
+
     return(
         <main>
       <div className="container-fluid mt-3">
         <div className="container">
           <div className="group130">
             <p className="home">Home</p>
-            <img src={imageSrc1} alt="vector" className="vector"></img>
+            <img src={this.state.imageSrc1} alt="vector" className="vector"></img>
             <p className="carthome">Cart</p>
           </div>
           <p className="cart-main">Cart</p>
@@ -122,7 +125,7 @@ class Main extends React. Component{
               </div>
                 <div className="button-numbers d-flex mb-4">
                   <button type="button" className="button-minus-plus me-3" onClick={decrementNumber}>-</button>
-                  <p>1</p>
+                  <p>{this.state.number}</p>
                   <button type="button" className="button-minus-plus ms-3" onClick={incrementNumber}>+</button>
                 </div>
               </div>
@@ -167,7 +170,7 @@ class Main extends React. Component{
               </div>
                 <div className="button-numbers d-flex mb-4">
                   <button type="button" className="button-minus-plus me-3" onClick={decrementNumber}>-</button>
-                  <p>1</p>
+                  <p>{this.state.number}</p>
                   <button type="button" className="button-minus-plus ms-3" onClick={incrementNumber}>+</button>
                 </div>
               </div>
@@ -203,7 +206,7 @@ class Main extends React. Component{
                 <div className="button-numbers d-flex mb-4 counter">
                   
                   <button type="button" className="button-minus-plus me-3" onClick={decrementNumber}>-</button>
-                  <p>1</p>
+                  <p>{this.state.number}</p>
                   <button type="button" className="button-minus-plus ms-3" onClick={incrementNumber}>+</button>
                 </div>
               </div>
