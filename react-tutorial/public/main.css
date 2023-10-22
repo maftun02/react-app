@@ -8,6 +8,21 @@
     src:url(./unineue/UniNeue-Trial-Regular.ttf) format(truetype);
     font-display: swap;
 }
+@font-face{
+    font-family: "Montserrat-Regular";
+    src:url(./Montserrat/Montserrat-Regular.ttf) format(truetype);
+    font-display: swap;
+}
+@font-face{
+    font-family: "Montserrat-Medium";
+    src:url(./Montserrat/Montserrat-Medium.ttf) format(truetype);
+    font-display: swap;
+}
+@font-face{
+    font-family: "Montserrat-Bold";
+    src:url(./Montserrat/Montserrat-Bold.ttf) format(truetype);
+    font-display: swap;
+}
 
 
 
@@ -95,7 +110,300 @@ li{
     margin-left: 20px;
 }
 .line2{
+    content: "";
     border: 0.1px solid #666666;
     opacity: 20%;
     margin-top: 15px;
+    width: 100%;
+}
+
+.group130{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.home{
+    font-family: "Montserrat-Medium",sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: 0.02em;
+    text-align: left; 
+    color: #8c8c8c; 
+    margin-right: 10px;  
+}
+.vector{
+    width: 10px;
+    height: 8px;
+}
+.carthome{
+    font-family: "Montserrat-Bold",sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 15px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: #1d293f;
+    margin-left: 10px;
+        
+}
+.cart-main{
+    font-family: "UniNeue-Regular", sans-serif;
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 46px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #202125; 
+    margin-top: 20px;   
+}
+
+.box-border{
+    width: 870px;
+    height: 65px;
+    top: 305px;
+    left: 372px;
+    border-radius: 5px;
+    border: 1px solid #e9e9e9;
+    display: flex;
+    justify-content: space-between;
+}
+.bascet{
+    width: 24px;
+    height: 24px;
+    margin-top: 15px;
+    margin-right: 18px;
+}
+.select{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 12px;
+}
+.checkbox{
+    border: 1px solid #D9D9D9;
+    border-radius: 5px;
+    width: 20px;
+    height: 20px;
+}
+.checkbox:checked{
+    background-color: #DC5B29;
+    border-color: #DC5B29;
+}
+.text-select{
+    font-family: "UniNeue-Regular", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 27px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: left;
+    margin-left: 10px;
+}
+.general-box{
+    width: 870px;
+    top: 390px;
+    left: 372px;
+    border-radius: 5px;
+    border: 1px;
+    border: 1px solid #E9E9E9;
+    margin-left: -12px;
+}
+.main-box{
+    width: 100%;
+}
+.section-box{
+    width: 867px;
+    height: 59px;
+    top: 391px;
+    left: 373px;
+    border-bottom: 1px solid #e9e9e9;
+    display: flex;
+    justify-content: space-between;
+    background-color: #F6F6F6;
+    margin-left: 12px;
+}
+.shop{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 12px;
+}
+.shop-name{
+    font-family: "UniNeue-Regular";
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #202125;
+}
+.store{
+    width: 15px;
+    height: 15px;
+}
+.section-b{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 12px;
+    border-bottom: 1px solid #E9E9E9;
+}
+.shop-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 15px;
+}
+.phone{
+    width: 60px;
+    height: 60px;
+    top: 480px;
+    left: 432px;
+}
+.telephone{
+    font-family:"UniNeue-Regular", sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #202125;
+}
+.usd{
+    font-family: "UniNeue-Regular", sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #202125;
+}
+.btn{
+    width: 101px;
+    height: 40px;
+    top: 500px;
+    left: 789px;
+    border: 1px;
+    border: 1px solid #BABABA;
+}
+.button-numbers{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button-minus-plus{
+    width: 40px;
+    height: 40px;
+    top: 641px;
+    left: 1172px;
+    border-radius: 10px;
+    border: 1px;
+    border: 1px solid #BABABA;
+    background-color: #fff;
+    margin-right: 10px;
+}
+
+.delivery-text{
+    font-family: "UniNeue-Regular";
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #202125;
+}
+.delivery{
+    display: flex;
+
+}
+.free{
+    display: flex;
+}
+.date{
+    font-family: "UniNeue-Regular";
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #202125;
+}
+aside{
+    width: 30%;
+    float: right;
+    margin-top: -50px;
+    width: 270px;
+    height: 225px;
+    top: 305px;
+    left: 1274px;
+    border-radius: 5px;
+    background-color: #f4f4f4;
+    margin-top: -725px;
+    margin-right: -60px;
+}
+.acces{
+    padding: 30px;
+    box-sizing: border-box;
+}
+.aside-text{
+    font-family: "UniNeue-Regular", sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #202125;
+}
+.aside-price{
+    font-family: "UniNeue-Regular",sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: right;
+color: #202125;
+}
+.checkout-btn{
+    width: 210px;
+    height: 44px;
+    top: 456px;
+    left: 1294px;
+    background-image: linear-gradient(90deg, #DC5C28 0%, #E39531 100%);
+    border-color: transparent ;
+    color: #fff;
+    border-radius: 10px;
+}
+footer{
+    height: 145px;
+    top: 1602px;
+    background-color: #f4f4f4;
+}
+.terms{
+    display: flex;
+    flex-direction: column;
+}
+.choose{
+    display: flex;
+    flex-direction: column;
+}
+.service{
+    display: flex;
+    flex-direction: column;
+}
+.footer-text{
+    font-family: "UniNeue-Regular";
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #202125;
+}
+a{
+    font-family: "UniNeue-Regular",sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #202125;
 }
