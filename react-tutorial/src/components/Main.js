@@ -8,6 +8,9 @@ class Main extends React. Component{
 
         this.state ={
             number: 0,
+            number1: 0,
+            number2: 0,
+            number3: 0,
             imageSrc1: "/images/vector.png"
         }
     }
@@ -15,12 +18,35 @@ class Main extends React. Component{
         const incrementNumber = () =>{
             this.setState({number: this.state.number + 1})
         }
+        const incrementNumber1 = () =>{
+            this.setState({number1: this.state.number1 + 1})
+        }
+        const incrementNumber2 = () =>{
+            this.setState({number2: this.state.number2+ 1})
+        }
+        const incrementNumber3 = () =>{
+            this.setState({number3: this.state.number3 + 1})
+        }
         
         const decrementNumber = () =>{
             if (this.state.number > 0){
                 this.setState({number: this.state.number - 1})
-            }
-            
+            } 
+        }
+        const decrementNumber1 = () =>{
+            if (this.state.number1 > 0){
+                this.setState({number1: this.state.number1 - 1})
+            } 
+        }
+        const decrementNumber2 = () =>{
+            if (this.state.number2 > 0){
+                this.setState({number2: this.state.number2 - 1})
+            } 
+        }
+        const decrementNumber3 = () =>{
+            if (this.state.number3 > 0){
+                this.setState({number3: this.state.number3 - 1})
+            } 
         }
 
     return(
@@ -124,9 +150,9 @@ class Main extends React. Component{
                 </div>
               </div>
                 <div className="button-numbers d-flex mb-4">
-                  <button type="button" className="button-minus-plus me-3" onClick={decrementNumber}>-</button>
-                  <p>{this.state.number}</p>
-                  <button type="button" className="button-minus-plus ms-3" onClick={incrementNumber}>+</button>
+                  <button type="button" className="button-minus-plus me-3" onClick={decrementNumber1}>-</button>
+                  <p>{this.state.number1}</p>
+                  <button type="button" className="button-minus-plus ms-3" onClick={incrementNumber1}>+</button>
                 </div>
               </div>
                   
@@ -169,9 +195,9 @@ class Main extends React. Component{
                 </div>
               </div>
                 <div className="button-numbers d-flex mb-4">
-                  <button type="button" className="button-minus-plus me-3" onClick={decrementNumber}>-</button>
-                  <p>{this.state.number}</p>
-                  <button type="button" className="button-minus-plus ms-3" onClick={incrementNumber}>+</button>
+                  <button type="button" className="button-minus-plus me-3" onClick={decrementNumber2}>-</button>
+                  <p>{this.state.number2}</p>
+                  <button type="button" className="button-minus-plus ms-3" onClick={incrementNumber2}>+</button>
                 </div>
               </div>
 
@@ -205,9 +231,9 @@ class Main extends React. Component{
               </div>
                 <div className="button-numbers d-flex mb-4 counter">
                   
-                  <button type="button" className="button-minus-plus me-3" onClick={decrementNumber}>-</button>
-                  <p>{this.state.number}</p>
-                  <button type="button" className="button-minus-plus ms-3" onClick={incrementNumber}>+</button>
+                  <button type="button" className="button-minus-plus me-3" onClick={decrementNumber3}>-</button>
+                  <p>{this.state.number3}</p>
+                  <button type="button" className="button-minus-plus ms-3" onClick={incrementNumber3}>+</button>
                 </div>
               </div>
 
